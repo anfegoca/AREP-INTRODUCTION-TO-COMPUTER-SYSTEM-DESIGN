@@ -19,6 +19,7 @@ public class MyLinkedList<E> implements List<E>{
     }
     
     
+    
     private int size= 0;
     private Node<E> head;
     private Node<E> tail;
@@ -83,6 +84,7 @@ public class MyLinkedList<E> implements List<E>{
         size++;
         return true;
     }
+    
 
     @Override
     public boolean remove(Object o) {
