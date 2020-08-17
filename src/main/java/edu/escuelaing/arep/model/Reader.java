@@ -11,48 +11,11 @@ import java.util.logging.Logger;
 
 /**
  * Esta clase lee un archivo dado su url
+ * 
  * @author Andres Gonzalez
  */
 public class Reader {
-    
-    /**
-     * Lee el archivo y retorna el BufferedReader correspondiente
-     * @param url dirección del archivo
-     * @return  BufferedReader del archivo
-     */
-    public BufferedReader read(String url){
-        BufferedReader br = null;
-        try {
-            File file = new File (url);
-            FileReader fr = new FileReader(file);
-            br = new BufferedReader(fr);
-            
-        } catch (FileNotFoundException ex) {
-            Logger.getLogger(Reader.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        return br;
-    }
-    /**
-     * Usando el BufferedReader de un archivo pasa sus datos a una lista de Doubles
-     * @param br BufferedReader del archivo
-     * @return Lista de Doubles del archivo
-     */
-    public List<Double> readinList(BufferedReader br){
-        try {
-            String line;
-            List<Double> lis = new MyLinkedList<>();
-            while((line=br.readLine())!=null){
-                line=line.trim();
-                Double x = Double.parseDouble(line);
-                lis.add(x);
-                
-            }
-            return lis;
-        } catch (IOException ex){
-            Logger.getLogger(Reader.class.getName()).log(Level.SEVERE, null, ex);
-            return null;
-        }
-        
-    }
-    
+
+
+
 }

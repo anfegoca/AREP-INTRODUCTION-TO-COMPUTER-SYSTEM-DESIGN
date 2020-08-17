@@ -14,7 +14,7 @@ import static org.junit.Assert.assertTrue;
 public class CalculatorTest 
    
 {
-    
+    /*
     private final Calculator cal = new Calculator();
     private final Reader rea = new Reader();
     private final String file1 = "prueba1.txt";
@@ -41,6 +41,7 @@ public class CalculatorTest
             assertTrue(false);
         }
     }
+    */
     
     
     
