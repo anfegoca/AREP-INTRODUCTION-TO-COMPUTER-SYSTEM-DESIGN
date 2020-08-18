@@ -1,4 +1,4 @@
-package edu.escuelaing.arep.App;
+package edu.escuelaing.arep.model;
 
 import java.util.List;
 

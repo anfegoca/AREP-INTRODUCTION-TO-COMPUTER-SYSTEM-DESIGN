@@ -1,6 +1,6 @@
 package edu.escuelaing.arep;
 
-import edu.escuelaing.arep.App.Calculator;
+import edu.escuelaing.arep.model.Calculator;
 import edu.escuelaing.arep.model.MyLinkedList;
 
 import org.junit.Test;
