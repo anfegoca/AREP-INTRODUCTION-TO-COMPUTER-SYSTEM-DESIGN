@@ -1,14 +1,27 @@
 # Mean and Standad Desviation
 
-Este programa ofrece el servicio de calcular la media y la desviación estándar de un archivo de datos.
+Este programa ofrece el servicio de calcular la media y la desviación estándar desde una página web.
 
 ## Getting Started
 
-Para hacer uso del proyecto solo debe clonar el repositorio o descargarlo directamente, para ejectarlo lo hacemos por medio de la consola usando el siguiente comandos, la ruta es la del archivo con los datos al cual le queremos realizar las operaciones:
+Para hacer uso del proyecto solo debe clonar el repositorio o descargarlo directamente, para ejectarlo lo hacemos por medio de la consola usando el siguiente comando, para compilar las clases con maven
 
 ```bash
-java -cp target/introduccion-1.0-SNAPSHOT.jar edu.escuelaing.arep.App.Calculator <ruta>
+mvn package
 ```
+Luego ejecutamos el programa usando el siguiente codigo:
+
+Linux o Mac
+```linux
+java $JAVA_OPTS -cp target/classes:target/dependency/* edu.escuelaing.arep.App.SparkWebApp
+```
+Windows
+```windows
+java -cp target/classes;target/dependency/* edu.escuelaing.arep.App.SparkWebApp
+```
+
+luego abrimos la siguiente pagina: http://localhost:4567/inputdata
+
 
 ### Prerequisites
 
@@ -28,7 +41,7 @@ Para usar el proyecto decargamos directamente el proyecto o lo clonamos de la si
 En la consola nos vamos al directorio donde vamos a clonar el repositorio y ponemos el siguiente comando:
 
 ```bash
-git clone https://github.com/anfegoca/AREP-Tarea-Introduccion-MVN-GIT.git
+git clone https://github.com/anfegoca/AREP-INTRODUCTION-TO-COMPUTER-SYSTEM-DESIGN.git
 
 ```
 ![clone](https://github.com/anfegoca/AREP-Tarea-Introduccion-MVN-GIT/blob/master/resources/1.png)
@@ -55,8 +68,6 @@ mvn test
 ```
 ![test](https://github.com/anfegoca/AREP-Tarea-Introduccion-MVN-GIT/blob/master/resources/6.png)
 
-Para información más detallada de los test se puede consultar el siguiente 
-[reporte](https://github.com/anfegoca/AREP-Tarea-Introduccion-MVN-GIT/blob/master/resources/Reporte%20de%20pruebas2.pdf)
 
 
 ## Built With
@@ -66,7 +77,7 @@ Para información más detallada de los test se puede consultar el siguiente
 
 ## Versioning
 
-El versionamiento se realizó a través de [github](https://github.com/anfegoca/AREP-Tarea-Introduccion-MVN-GIT.git)
+El versionamiento se realizó a través de [github](https://github.com/anfegoca/AREP-INTRODUCTION-TO-COMPUTER-SYSTEM-DESIGN.git)
 
 ## Authors
 
@@ -75,7 +86,7 @@ El versionamiento se realizó a través de [github](https://github.com/anfegoca/
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.txt) file for details
 
 ## Design
 
