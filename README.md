@@ -20,7 +20,13 @@ Windows
 java -cp target/classes;target/dependency/* edu.escuelaing.arep.App.SparkWebApp
 ```
 
-luego abrimos la siguiente pagina: http://localhost:4567/inputdata
+luego abrimos la siguiente pagina: http://localhost:4567/inputdata, nos aparecerá la siguiente página, donde tendremos que ingresar los datos a los cuales les queremos realizar los cálculos, los datos se deben ingresar separados por coma
+
+![direc](https://github.com/anfegoca/AREP-INTRODUCTION-TO-COMPUTER-SYSTEM-DESIGN/blob/master/resources/4.png)
+
+Una vez ingresemos los datos le damos al botón de submit y nos mostrará el resultado
+
+![direc](https://github.com/anfegoca/AREP-INTRODUCTION-TO-COMPUTER-SYSTEM-DESIGN/blob/master/resources/7.png)
 
 
 ### Prerequisites
