@@ -19,7 +19,7 @@ public class Calculator {
      * @param lis lista de Doubles
      * @return el valor de la media como tipo Double
      */
-    public Operations mean = (lis) -> {
+    public final Operations mean = (lis) -> {
         Double sum = 0.0;
         for (int i = 0; i < lis.size(); i++) {
             sum += lis.get(i);
@@ -33,7 +33,7 @@ public class Calculator {
      * @param lis lista de Doubles
      * @return el valor de la desviación estandar como tipo Double
      */
-    public Operations standarDes = (List<Double> lis) -> {
+    public final Operations standarDes = (List<Double> lis) -> {
         Double sum = 0.0;
         Double avr = getInstance().operate(lis, mean);
         for (int i = 0; i < lis.size(); i++) {
