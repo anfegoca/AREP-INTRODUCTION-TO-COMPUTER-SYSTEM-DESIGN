@@ -44,19 +44,19 @@ En la consola nos vamos al directorio donde vamos a clonar el repositorio y pone
 git clone https://github.com/anfegoca/AREP-INTRODUCTION-TO-COMPUTER-SYSTEM-DESIGN.git
 
 ```
-![clone](https://github.com/anfegoca/AREP-Tarea-Introduccion-MVN-GIT/blob/master/resources/1.png)
+![clone](https://github.com/anfegoca/AREP-INTRODUCTION-TO-COMPUTER-SYSTEM-DESIGN/blob/master/resources/1.png)
 
 En el direcctorio nos quedará la carpeta del proyecto y dentro veremos las siguiente carpetas
 
-![direc](https://github.com/anfegoca/AREP-Tarea-Introduccion-MVN-GIT/blob/master/resources/2.png)
+![direc](https://github.com/anfegoca/AREP-INTRODUCTION-TO-COMPUTER-SYSTEM-DESIGN/blob/master/resources/2.png)
 
 Para modificar abrimos el proyecto con cualquier editor, en este caso usamos Visual Studio Code
 
-![edit](https://github.com/anfegoca/AREP-Tarea-Introduccion-MVN-GIT/blob/master/resources/3.png)
+![edit](https://github.com/anfegoca/AREP-INTRODUCTION-TO-COMPUTER-SYSTEM-DESIGN/blob/master/resources/3.png)
 
 Y ya podemos modificar cualquier clase del proyecto
 
-![class](https://github.com/anfegoca/AREP-Tarea-Introduccion-MVN-GIT/blob/master/resources/5.png)
+![class](https://github.com/anfegoca/AREP-INTRODUCTION-TO-COMPUTER-SYSTEM-DESIGN/blob/master/resources/5.png)
 
 ## Running the tests
 
@@ -66,7 +66,7 @@ Para ejecutar los test del proyecto usamos el siguiente codigo desde la ruta del
 mvn test
 
 ```
-![test](https://github.com/anfegoca/AREP-Tarea-Introduccion-MVN-GIT/blob/master/resources/6.png)
+![test](https://github.com/anfegoca/AREP-INTRODUCTION-TO-COMPUTER-SYSTEM-DESIGN/blob/master/resources/6.png)
 
 
 
