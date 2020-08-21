@@ -102,11 +102,11 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.tx
 
 ## Design
 
-Para mas información del diseño del proyecto puede ver el siguiente [documento](https://github.com/anfegoca/AREP-Tarea-Introduccion-MVN-GIT/blob/master/resources/Mean%20and%20Standard%20Desviation.pdf)
+Para mas información del diseño del proyecto puede ver el siguiente [documento](https://github.com/anfegoca/AREP-INTRODUCTION-TO-COMPUTER-SYSTEM-DESIGN/blob/master/resources/Mean%20and%20Standard%20Deviation.pdf)
 
 ## JavaDoc
 
-La documentación del proyecto la puede encontrar [aquí](https://github.com/anfegoca/AREP-Tarea-Introduccion-MVN-GIT/tree/master/site/apidocs)
+La documentación del proyecto la puede encontrar [aquí](https://github.com/anfegoca/AREP-INTRODUCTION-TO-COMPUTER-SYSTEM-DESIGN/tree/master/site/apidocs)
 o puede usar el siguiente comando para generarla
 
 ```bash
