@@ -1,4 +1,6 @@
 # Mean and Standad Desviation
+[![anfegoca](https://circleci.com/gh/anfegoca/AREP-INTRODUCTION-TO-COMPUTER-SYSTEM-DESIGN.svg?style=svg)](https://app.circleci.com/pipelines/github/anfegoca/AREP-INTRODUCTION-TO-COMPUTER-SYSTEM-DESIGN)
+
 
 Este programa ofrece el servicio de calcular la media y la desviación estándar desde una página web.
 
