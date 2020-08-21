@@ -4,7 +4,11 @@ Este programa ofrece el servicio de calcular la media y la desviación estándar
 
 ## Getting Started
 
-Para hacer uso del proyecto solo debe clonar el repositorio o descargarlo directamente, para ejectarlo lo hacemos por medio de la consola usando el siguiente comando, para compilar las clases con maven
+Para hacer uso del proyecto podemos entrar a la siguiente dirección:  
+\
+https://cryptic-lowlands-26103.herokuapp.com/inputdata   
+\
+o solo debe clonar el repositorio o descargarlo directamente, para ejectarlo lo hacemos por medio de la consola usando el siguiente comando, para compilar las clases con maven
 
 ```bash
 mvn package
